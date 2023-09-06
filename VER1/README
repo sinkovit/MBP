@@ -1,0 +1,13 @@
+(1) Combine f1() through f223 into a single function
+
+(2) Split poly-3b-v2x.cpp into three parts: head.ccp, body.cpp, tail.cpp
+
+* head.ccp contains everything through the definition of f1()
+
+* body.cpp is the calculation of array t
+
+* tail.cpp is closing brace of f1() through end of file
+
+The complete file can be reconstituted by concatenating the three files
+
+cat head.cpp body.cpp tail.cpp > poly-3b-v2x.cpp
