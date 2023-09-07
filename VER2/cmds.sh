@@ -3,7 +3,7 @@
 # Replaces usage of elements of t with corresponding elements of a and x 
 
 # Convert [..] to <..> for clarity and save in temp1
-sed 's/\[/</'g body1.cpp | sed 's/\]/>/'g > temp1
+sed 's/\[/</'g bodyf1.cpp | sed 's/\]/>/'g > temp1
 
 # Strip out lines that are simple substitutions (e.g., "t<1> = a<11>;") and save in temp2
 awk '$0 !~ /t<[0-9]*> = [ax]<[0-9]*>;/' temp1 > temp2
@@ -15,7 +15,11 @@ awk '/t<[0-9]*> = [ax]<[0-9]*>;/ {print "sed \047s/" $1 "/" $3 "/g\047 temp2 > t
 . sedcmds
 
 # Convert <..> back to [..]
-sed 's/</\[/'g temp2 | sed 's/>/\]/'g  > body2.cpp
+sed 's/</\[/'g temp2 | sed 's/>/\]/'g  > bodyf2.cpp
 
 # Cleanup work
 rm -f temp1 temp2 sedcmds
+
+# Reconstruct poly-3b-v2x
+cp bodyp1.cpp bodyp2.cpp
+cat top.cpp bodyf2.cpp mid.cpp bodyp2.cpp tail.cpp > poly-3b-v2x-2.cpp
