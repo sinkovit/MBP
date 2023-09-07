@@ -19,9 +19,8 @@ sed 's/\[/< /g; s/\]/ >/g' bodyp2.cpp > temp2
 . sedcmds
 sed 's/< /\[/g; s/ >/\]/g; s/z/t/g' temp2 >  bodyp3.cpp
 
-
-#rm -f temp1 temp2 part1 part2 sedcmds
-
+# Delete temp files
+rm -f temp1 temp2 part1 part2 sedcmds
 
 # Reconstruct poly-3b-v2x
-#cat top.cpp bodyf3.cpp mid.cpp bodyp3.cpp tail.cpp > poly-3b-v2x-3.cpp
+cat top.cpp bodyf3.cpp mid.cpp bodyp3.cpp tail.cpp > poly-3b-v2x-3.cpp
