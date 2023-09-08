@@ -4,8 +4,12 @@
 # times. Then it renumbers the elements of a to remove the gaps in usage.
 
 # Reordering statements
+# x[32] is used more of the t = a * x expresions than any other element of x
+# By putting these expressions first, most of array a will be loaded into cache
+# since x[82] is multipled by 85% of the elements of a used in these expressions
 sed 's/\[/< /g; s/\]/ >/g' bodyf2.cpp > temp1 
-awk '/t< [0-9]* > = [ax]< [0-9]* > \* [ax]< [0-9]* >;$/ {print}' temp1 | sort -n -k10 -k6 > part1
+awk '/t< [0-9]* > = [ax]< [0-9]* > \* [ax]< [0-9]* >;$/ {print}' temp1 | grep 'x< 32 >' | sort -k10nr -k6n > part1
+awk '/t< [0-9]* > = [ax]< [0-9]* > \* [ax]< [0-9]* >;$/ {print}' temp1 | grep -v 'x< 32 >' | sort -k10nr -k6n >> part1
 awk '$0 !~ /t< [0-9]* > = [ax]< [0-9]* > \* [ax]< [0-9]* >;$/ {print}' temp1 > part2
 cat part1 part2 > temp2
 
