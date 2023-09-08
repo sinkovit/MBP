@@ -1,7 +1,7 @@
 # Find elements of array t that occur exactly two times in a file
 
 BEGIN {
-    PROCINFO["sorted_in"] = "@ind_str_asc"
+    PROCINFO["sorted_in"] = "@ind_str_desc"
 }
 
 # Get word counts
