@@ -30,7 +30,7 @@ awk 'BEGIN {RS=";\n"} {print "sed \047s/t< " $2 " >/z< " NR " >/g\047 temp3 > te
 sed 's/< /\[/g; s/ >/\]/g; s/z/t/g' temp3 >  bodyf4.cpp
 
 # Delete temp files
-rm -f temp1 temp2 temp3 twos strip.sh sedcmds.sh filter-sedcmds.sh filtered-sedcmds.sh
+rm -f temp1 temp2 temp3 twos strip.sh sedcmds sedcmds.sh filter-sedcmds.sh filtered-sedcmds.sh
 
 # Reconstruct poly-3b-v2x
 cp bodyp3.cpp bodyp4.cpp
