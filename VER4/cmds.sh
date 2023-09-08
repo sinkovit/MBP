@@ -1,5 +1,5 @@
 # Remove semicolons and parentheses
-sed 's/;//g; s/(//g; s/)//g' bodyf3.cpp  > temp1
+sed 's/;//g; s/(//g; s/)//g' bodyf3.cpp bodyp3.cpp > temp1
 
 # Find elements of array t that are only used once after being defined
 awk -f findtwos.awk temp1 > twos
