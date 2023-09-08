@@ -27,7 +27,7 @@ awk '{print "grep -v \047" $1 " =\047 temp2 > temp3; mv temp3 temp2"}' twos > st
 sed 's/</< /g; s/>/ >/g' temp2 > temp3
 awk 'BEGIN {RS=";\n"} {print "sed \047s/t< " $2 " >/z< " NR " >/g\047 temp3 > temp4; mv temp4 temp3"}' temp3 > sedcmds
 . sedcmds
-sed 's/< /\[/g; s/ >/\]/g; s/z/t/g' temp2 >  bodyf3.cpp
+sed 's/< /\[/g; s/ >/\]/g; s/z/t/g' temp2 >  bodyf4.cpp
 
 # Delete temp files
 rm -f temp1 temp2 temp3 twos strip.sh sedcmds.sh filter-sedcmds.sh filtered-sedcmds.sh
