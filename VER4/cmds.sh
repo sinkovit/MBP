@@ -7,6 +7,10 @@ awk -f findtwos.awk temp1 > twos
 # Convert [] to <>
 sed 's/\[/</g; s/\]/>/g' bodyf3.cpp > temp2
 
+# Convert multiline expressions to single line
+awk 'BEGIN {RS=";\n"; ORS=";\n"} {gsub(/\n/, "", $0); gsub(/\+\s*/, "+ ", $0); gsub(/\*\s*/, "* ", $0); gsub(/=\s*/, "= ", $0); print}' temp2 > x
+mv x temp2
+
 # Strip out lines that assign values to elements used only once after being defined
 awk '{print "grep -v \047" $1 " =\047 temp2 > temp3; mv temp3 temp2"}' twos > strip.sh
 . strip.sh
