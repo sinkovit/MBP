@@ -1,13 +1,11 @@
-(1) Combine f1() through f223 into a single function
+(1) Combine f1() through f223() and poly_3b_v2x() into a single function
 
 (2) Split poly-3b-v2x.cpp into multiple parts
 
 top.cpp    - everything through definition of f1()
-bodyf1.cpp - version 1 body of function f1()
-mid.cpp    - closing brace of f1() and start of poly_3b_v2x()
 bodyp1.cpp - version 1 body of poly_3b_v2x()
 tail.cpp   - remainder of poly_3b_v2x()
 
 Original file can be reconstructed as follows
 
-cat top.cpp bodyf1.cpp mid.cpp bodyp1.cpp tail.cpp > poly-3b-v2x-1.cpp
+cat top.cpp bodyp1.cpp tail.cpp > poly-3b-v2x-1.cpp

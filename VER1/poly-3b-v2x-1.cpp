@@ -36,7 +36,12 @@ SOFTWARE WILL NOT INFRINGE ANY PATENT, TRADEMARK OR OTHER RIGHTS.
 
 namespace x2o {
 
-void f1(const double *x, const double *a, double *t) {
+double poly_3b_v2x::eval(const double *a, const double *x, double *t, double *g) {
+#ifdef DEBUG
+    std::cerr << std::scientific << std::setprecision(20);
+    std::cerr << "\nEntering " << __func__ << " in " << __FILE__ << std::endl;
+#endif
+
     t[1] = a[11];
     t[2] = a[204];
     t[4] = x[35];
@@ -30182,14 +30187,6 @@ void f1(const double *x, const double *a, double *t) {
                (t[2131] + t[29104] + t[32007] + t[32009] + t[32013] * t[258]) * t[258] +
                (t[32455] + t[32505]) * t[13943] + (t[32545] + t[32567]) * t[4149] + t[32593] * t[393] +
                t[32606] * t[342];
-}
-
-double poly_3b_v2x::eval(const double *a, const double *x, double *t, double *g) {
-#ifdef DEBUG
-    std::cerr << std::scientific << std::setprecision(20);
-    std::cerr << "\nEntering " << __func__ << " in " << __FILE__ << std::endl;
-#endif
-    f1(x, a, t);
 
     g[0] = t[4522];
     g[1] = t[6963];
