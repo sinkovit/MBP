@@ -1,0 +1,8 @@
+for i in {1..22237}
+do
+   echo "c1=\`grep -c 't\[$i\]' poly-3b-v2x-1b.cpp\`"
+   echo "c2=\`grep -c 't\[$(($i+2))\]' poly-3b-v2x-1b.cpp\`"
+   echo "c3=\`grep -c 't\[$i\] + t\[$(($i+2))\]' poly-3b-v2x-1b.cpp\`"
+   echo "echo \"t[$i] + t[$(($i+2))] \$c1 \$c2 \$c3\""
+   echo ""
+done
