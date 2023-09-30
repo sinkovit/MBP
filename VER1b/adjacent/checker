@@ -1,0 +1,4 @@
+awk '/RSS/ {print $1}' poly-3b-v2x-1b.cpp > temp1
+awk '/x/ {sub(/x/,"",$1); print $1}' res4 > temp2
+wc -l temp1 temp2
+diff temp1 temp2
