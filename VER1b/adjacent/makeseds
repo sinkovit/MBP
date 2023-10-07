@@ -1,0 +1,1 @@
+awk '{print "sed -s \047/"$0"/"$1"/\047 temp1 > temp2; mv temp2 temp1"}' res5 > seder
