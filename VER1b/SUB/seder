@@ -1,26 +1,3 @@
-sed 's/t\[3672\] + t\[3673\]/t\[3672\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3721\] + t\[3722\]/t\[3721\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3754\] + t\[3755\]/t\[3754\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3757\] + t\[3758\]/t\[3757\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3762\] + t\[3763\]/t\[3762\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3765\] + t\[3766\]/t\[3765\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3781\] + t\[3782\] + t\[3783\]/t\[3781\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3784\] + t\[3785\]/t\[3784\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3827\] + t\[3828\]/t\[3827\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3843\] + t\[3844\]/t\[3843\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3856\] + t\[3857\] + t\[3858\] + t\[3859\]/t\[3856\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3864\] + t\[3865\]/t\[3864\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3872\] + t\[3873\]/t\[3872\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3894\] + t\[3895\]/t\[3894\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3898\] + t\[3899\]/t\[3898\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3908\] + t\[3909\]/t\[3908\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[3948\] + t\[3949\] + t\[3950\]/t\[3948\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[4812\] + t\[4813\]/t\[4812\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[4852\] + t\[4853\]/t\[4852\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[4855\] + t\[4856\] + t\[4857\] + t\[4858\]/t\[4855\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[4881\] + t\[4882\]/t\[4881\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[4902\] + t\[4903\]/t\[4902\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[4927\] + t\[4928\]/t\[4927\]/' temp1 > temp2; mv temp2 temp1
 sed 's/t\[5055\] + t\[5056\]/t\[5055\]/' temp1 > temp2; mv temp2 temp1
 sed 's/t\[5156\] + t\[5157\]/t\[5156\]/' temp1 > temp2; mv temp2 temp1
 sed 's/t\[5298\] + t\[5299\]/t\[5298\]/' temp1 > temp2; mv temp2 temp1
