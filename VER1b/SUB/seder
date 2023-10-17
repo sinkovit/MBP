@@ -1,26 +1,3 @@
-sed 's/t\[6263\] + t\[6264\]/t\[6263\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6310\] + t\[6311\]/t\[6310\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6324\] + t\[6325\]/t\[6324\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6501\] + t\[6502\]/t\[6501\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6616\] + t\[6617\]/t\[6616\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6672\] + t\[6673\]/t\[6672\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6702\] + t\[6703\]/t\[6702\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6795\] + t\[6796\]/t\[6795\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6815\] + t\[6816\]/t\[6815\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6835\] + t\[6836\]/t\[6835\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6871\] + t\[6872\]/t\[6871\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6897\] + t\[6898\]/t\[6897\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6908\] + t\[6909\] + t\[6910\] + t\[6911\]/t\[6908\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6913\] + t\[6914\] + t\[6915\] + t\[6916\]/t\[6913\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[6946\] + t\[6947\]/t\[6946\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[7040\] + t\[7041\]/t\[7040\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[7043\] + t\[7044\]/t\[7043\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[7062\] + t\[7063\]/t\[7062\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[7096\] + t\[7097\]/t\[7096\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[7115\] + t\[7116\]/t\[7115\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[7117\] + t\[7118\]/t\[7117\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[7137\] + t\[7138\]/t\[7137\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[7193\] + t\[7194\]/t\[7193\]/' temp1 > temp2; mv temp2 temp1
 sed 's/t\[7421\] + t\[7422\]/t\[7421\]/' temp1 > temp2; mv temp2 temp1
 sed 's/t\[7464\] + t\[7465\]/t\[7464\]/' temp1 > temp2; mv temp2 temp1
 sed 's/t\[7515\] + t\[7516\]/t\[7515\]/' temp1 > temp2; mv temp2 temp1
