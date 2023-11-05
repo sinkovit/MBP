@@ -1,46 +1,23 @@
-sed 's/t\[19545\] + t\[19546\]/t\[19545\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19548\] + t\[19549\]/t\[19548\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19550\] + t\[19551\]/t\[19550\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19552\] + t\[19553\]/t\[19552\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19554\] + t\[19555\] + t\[19556\] + t\[19557\]/t\[19554\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19559\] + t\[19560\]/t\[19559\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19569\] + t\[19570\]/t\[19569\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19577\] + t\[19578\]/t\[19577\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19579\] + t\[19580\]/t\[19579\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19582\] + t\[19583\] + t\[19584\] + t\[19585\] + t\[19586\] + t\[19587\]/t\[19582\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19589\] + t\[19590\]/t\[19589\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19592\] + t\[19593\]/t\[19592\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19594\] + t\[19595\]/t\[19594\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19597\] + t\[19598\]/t\[19597\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19600\] + t\[19601\]/t\[19600\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19608\] + t\[19609\]/t\[19608\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19614\] + t\[19615\]/t\[19614\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19628\] + t\[19629\]/t\[19628\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19632\] + t\[19633\]/t\[19632\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19643\] + t\[19644\]/t\[19643\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19659\] + t\[19660\]/t\[19659\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19661\] + t\[19662\] + t\[19663\] + t\[19664\]/t\[19661\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19665\] + t\[19666\] + t\[19667\] + t\[19668\]/t\[19665\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19674\] + t\[19675\]/t\[19674\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19676\] + t\[19677\]/t\[19676\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19678\] + t\[19679\]/t\[19678\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19680\] + t\[19681\]/t\[19680\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19682\] + t\[19683\]/t\[19682\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19684\] + t\[19685\]/t\[19684\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19687\] + t\[19688\] + t\[19689\] + t\[19690\] + t\[19691\] + t\[19692\]/t\[19687\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19694\] + t\[19695\]/t\[19694\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19697\] + t\[19698\]/t\[19697\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19699\] + t\[19700\]/t\[19699\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19702\] + t\[19703\]/t\[19702\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19704\] + t\[19705\]/t\[19704\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19706\] + t\[19707\]/t\[19706\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19708\] + t\[19709\]/t\[19708\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19710\] + t\[19711\]/t\[19710\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19712\] + t\[19713\]/t\[19712\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19714\] + t\[19715\]/t\[19714\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19716\] + t\[19717\]/t\[19716\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19718\] + t\[19719\]/t\[19718\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19720\] + t\[19721\] + t\[19722\] + t\[19723\]/t\[19720\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19724\] + t\[19725\]/t\[19724\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19726\] + t\[19727\]/t\[19726\]/' temp1 > temp2; mv temp2 temp1
-sed 's/t\[19728\] + t\[19729\]/t\[19728\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19803\] + t\[19804\]/t\[19803\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19812\] + t\[19813\]/t\[19812\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19814\] + t\[19815\]/t\[19814\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19816\] + t\[19817\]/t\[19816\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19818\] + t\[19819\]/t\[19818\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19820\] + t\[19821\]/t\[19820\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19822\] + t\[19823\]/t\[19822\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19825\] + t\[19826\]/t\[19825\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19827\] + t\[19828\]/t\[19827\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19829\] + t\[19830\]/t\[19829\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19833\] + t\[19834\]/t\[19833\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19835\] + t\[19836\]/t\[19835\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19837\] + t\[19838\]/t\[19837\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19839\] + t\[19840\]/t\[19839\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19841\] + t\[19842\]/t\[19841\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19843\] + t\[19844\]/t\[19843\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19846\] + t\[19847\]/t\[19846\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19848\] + t\[19849\]/t\[19848\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19852\] + t\[19853\]/t\[19852\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19854\] + t\[19855\]/t\[19854\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19856\] + t\[19857\]/t\[19856\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19858\] + t\[19859\] + t\[19860\] + t\[19861\]/t\[19858\]/' temp1 > temp2; mv temp2 temp1
+sed 's/t\[19862\] + t\[19863\]/t\[19862\]/' temp1 > temp2; mv temp2 temp1
