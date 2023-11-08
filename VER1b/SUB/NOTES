@@ -1,0 +1,15 @@
+(1) Combine math operations that may not be optimized using -O2
+
+For example, this ...
+
+t[20424] = t[2296] * t[68] + t[2296] * t[88]
+
+... becomes ...
+
+t[20424] = t[2296] * (t[68] + t[88])
+
+(2) Pull all assignments of the form "t[n] = a[m]" into a single function that is only executed once. Can save 1163 assignments.
+
+(3) Renumbering of elements of t matrix after finishing substitutions
+
+(4) Look for pairs of elements of t that are used with stride 2
