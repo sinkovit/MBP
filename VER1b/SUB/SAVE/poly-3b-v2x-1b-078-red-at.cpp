@@ -30120,7 +30120,7 @@ double poly_3b_v2x::eval(const double *a, const double *x, double *t, double *g)
     // unnecessary loads
     
     if (t[0] != a[11] || t[8560] != a[271]) {
-      std::cout << "Calling f0()\n";
+      std::cout << "Calling f0()\n"
       f0(x, a, t);
     }
 

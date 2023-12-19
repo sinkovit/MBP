@@ -1,0 +1,22 @@
+***
+Original code:
+poly-3b-v2x-1b-orig.cpp
+
+***
+Elements of t[] renumbered to eliminate gaps
+poly-3b-v2x-1b-000.cpp
+
+***
+Identify pairs of elements of t[] that always appear together, combine
+into a single element and use throughout remainder of the code. Done
+incrementally so that we can always go back to a last working version.
+
+poly-3b-v2x-1b-001.cpp
+...
+poly-3b-v2x-1b-078.cpp
+
+***
+Building on previous step, simplify calculations in combined terms
+since -O2 optimization may keep original order of math operations
+
+poly-3b-v2x-1b-078-red.cpp
